@@ -1,0 +1,25 @@
+{
+    "company_location": "Iowa, United States",
+    "company_industry": "accounting",
+    "company_size": "1-10",
+    "revenue": "$0-$1M",
+    "job_title_level": [
+        "CXO",
+        "Manager",
+        "Owner",
+        "Director",
+        "Entry",
+        "Partner",
+        "Senior",
+        "Training",
+        "Unpaid",
+        "VP"
+    ],
+    "job_role": null,
+    "job_sub_role": [
+        "accounting"
+    ],
+    "job_title": [
+        "CPA"
+    ]
+}
