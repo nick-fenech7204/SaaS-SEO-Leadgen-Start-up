@@ -8,7 +8,7 @@ base_path = os.path.dirname(__file__)
 
 
 # Constants
-API_TOKEN = 'f359ba3b7fd13d62a7fd6aa576c260bd'
+API_TOKEN = 'blank'
 API_URL_PATTERN = 'https://api.serpstat.com/v{version}?token={token}'
 API_URL = API_URL_PATTERN.format(version=4, token=API_TOKEN)
 INPUT_PATH = os.path.join(base_path, "raw_serp_data.csv")

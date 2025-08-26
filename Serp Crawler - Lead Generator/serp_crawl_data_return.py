@@ -18,7 +18,7 @@ base_path = os.path.dirname(__file__)
 current_datetime = datetime.now()
 formatted_datetime = current_datetime.strftime("%Y_%m_%d_%H-%M-%S")
 
-api_token = 'f359ba3b7fd13d62a7fd6aa576c260bd'                                                         
+api_token = 'blank'                                                         
 api_url_pattern = 'https://serpstat.com/rt/api/v{version}?token={token}'
 api_url = api_url_pattern.format(version=2, token=api_token)
 file_path_new_task_ids = os.path.join(base_path, "current_task_ids.txt")

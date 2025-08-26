@@ -22,7 +22,7 @@ job_sub_role = wiza_gui_api_data.get("job_sub_role") or None
 job_title_text_input = wiza_gui_api_data.get("job_title", [None])[0]
 
 def headers_and_api_key():
-    master_api_key = "fa70328228bcaafda950fa1c03d24a09269d8c5d6effdc6354cd9c5421e23008"
+    master_api_key = "blank"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {master_api_key}"

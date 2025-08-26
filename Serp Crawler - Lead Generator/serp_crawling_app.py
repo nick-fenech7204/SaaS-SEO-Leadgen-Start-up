@@ -19,7 +19,7 @@ base_path = os.path.dirname(__file__)
 path = os.path.join(base_path, "Location Table.xlsx")
 read_in_table = pd.read_excel(path, sheet_name='data_to_query', dtype=str)
 
-api_token = 'f359ba3b7fd13d62a7fd6aa576c260bd'
+api_token = 'blank'
 api_url_pattern = 'https://serpstat.com/rt/api/v{version}?token={token}'
 api_url = api_url_pattern.format(version=2, token=api_token)
 headers = {"Content-Type": "application/json", "X-Api-Key": api_token}
@@ -341,7 +341,7 @@ class SerpstatApp(QWidget):
         self.logs.append("ChatGPT Response Received")
 
     def call_chatgpt_api(self, query):
-        client = OpenAI(api_key="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")
+        client = OpenAI(api_key="blank")
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             store=True,
