@@ -53,9 +53,9 @@ By crawling local SERPs by keyword, industry, and location, filtering results in
    - Keywords or search phrases (or ask OpenAI to generate them)  
 
 2. **Keyword Assistance (OpenAI)**  
-   - If no keywords are provided by firm, the tool can call the OpenAI API for assistance.  
+   - If no keywords are provided by the firm, the tool can call the OpenAI API for assistance.  
    - Returns relevant, industry-specific keyword lists.
-   - Can be used for any other needs within app.
+   - Can be used for any other needs within the app.
 
 3. **SERP Crawl (Serpstat)**  
    - Executes unbiased searches in the chosen region.  
@@ -70,8 +70,10 @@ By crawling local SERPs by keyword, industry, and location, filtering results in
    - For each domain, pull contact and company data.  
    - Collects decision-maker info (CMOs, Marketing Managers, Founders, etc.).  
 
-6. **Output**  
-   - A clean, enriched lead list with domains, traffic metrics, keywords, and contacts.  
+6. **Output (Excel file with three sheets)**  
+   - Raw Data: Contains the raw SERP Crawled Data
+   - Domains: Lists all domains that fit filtering criteria
+   - Wiza: All leads and their contact information from the above domains
 
 ---
 
@@ -108,12 +110,33 @@ python main.py --keywords "seo agency, digital marketing firm" \
                --location "Orlando, FL" \
                --industry "Marketing & Advertising"
 ```
-### Output
-- Excel file with enriched leads
-- Includes domain, traffic metrics, contact names, emails, phone, LinkedIn, and titles
+
+## Offshoot Capabilities of This Solution
+
+### Database Integration (SQL)
+
+A **CRM Integration - Database Example** was used to simulate the integration of Serpstat data into an existing firm's CRM.  
+
+Note: This differs from the main **SerpCrawler** script app.  
+While the crawler is focused on generating *new SEO leads*, this database showcases how enrichment data can be layered onto **existing leads** already within a firm's CRM.  
+
+The database contains:  
+- **Backlink information**  
+- **Site audit data** (site health, technical issues)  
+- **SERP performance metrics**  
+
+This enriched dataset can be valuable not only for SEO firms, but also for **marketing agencies** and **in-house marketing departments** across many industries.  
+This is not the primary focus of this repo, however it demonstrates the **potential for CRM enrichment and cross-departmental insights**.  
+
+### API Notebooks
+
+The **SerpStat API Calls** folder contains Jupyter notebooks with information and examples on calling almost all API methods within SerpStat's documentation:
+This is helpful in understanding what data is accessible with a subscription, and how to send the post requests correctly for the many different methods. 
 
 ### Disclaimer
-This is an example of usage, scripts currently have no values for the APIs, calls are also based off early 2025 API documentation for each firm. 
+This solution is provided as an example of a business use case for SEO lead generation and enrichment. It demonstrates how to structure workflows for keyword research, SERP crawling, lead qualification, and contact enrichment using AI and third-party APIs. This repository can be used as a reference or starting point for similar applications in digital marketing and SEO outreach.
+
+
 
 
 
