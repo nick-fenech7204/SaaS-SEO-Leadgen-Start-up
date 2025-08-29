@@ -4,9 +4,9 @@
 
 This application automates SEO lead generation and enrichment by combining:
 
-- **Serpstat** – for unbiased SERP crawling & keyword/industry intelligence  
-- **Wiza** – for enriched contact data  
-- **OpenAI** – for dynamic keyword generation, industry insights, and guidance 
+- **[SerpStat](https://serpstat.com)** - for unbiased SERP crawling & keyword/industry intelligence  
+- **[Wiza](https://wiza.co)** - for enriched contact data  
+- **[OpenAI](https://openai.com)** - for dynamic keyword generation, industry insights, and guidance 
 
 The goal is simple:
 
@@ -74,8 +74,12 @@ By crawling local SERPs by keyword, industry, and location, filtering results in
    - Raw Data: Contains the raw SERP Crawled Data
    - Domains: Lists all domains that fit filtering criteria
    - Wiza: All leads and their contact information from the above domains
+   - [Output Example](example_serp_crawl_output.xlsx)
 
 ---
+## App Example:
+![SerpCrawling App](Serp%20Crawler%20-%20Lead%20Generator/example_program.png)
+
 
 ## Example Use Case
 
@@ -106,9 +110,7 @@ pip install -r requirements.txt
 ```
 ### Run App
 ```bash
-python main.py --keywords "seo agency, digital marketing firm" \
-               --location "Orlando, FL" \
-               --industry "Marketing & Advertising"
+serp_crawling_app.py 
 ```
 
 ## Offshoot Capabilities of This Solution
@@ -134,8 +136,7 @@ The **SerpStat API Calls** folder contains Jupyter notebooks with information an
 This is helpful in understanding what data is accessible with a subscription, and how to send the post requests correctly for the many different methods. 
 
 ### Disclaimer
-This solution is provided as an example of a business use case for SEO lead generation and enrichment. It demonstrates how to structure workflows for keyword research, SERP crawling, lead qualification, and contact enrichment using AI and third-party APIs. This repository can be used as a reference or starting point for similar applications in digital marketing and SEO outreach.
-
+This solution is provided as an example of a business use case for SEO lead generation and enrichment. This repository can be used as a reference or starting point for similar applications in digital marketing and SEO outreach or even a jumping off point for a future SaaS soultion.
 
 
 
