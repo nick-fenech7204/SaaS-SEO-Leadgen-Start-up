@@ -74,7 +74,7 @@ By crawling local SERPs by keyword, industry, and location, filtering results in
    - Raw Data: Contains the raw SERP Crawled Data
    - Domains: Lists all domains that fit filtering criteria
    - Wiza: All leads and their contact information from the above domains
-   - [Output Example](example_serp_crawl_output.xlsx)
+   - [Output Example](Examples%20and%20Required%20Docs/example_serp_crawl_output.xlsx)
 
 ---
 ## App Example:
