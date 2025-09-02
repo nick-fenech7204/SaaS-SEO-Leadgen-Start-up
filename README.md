@@ -8,14 +8,12 @@ This application automates SEO lead generation and enrichment by combining:
 - **[Wiza](https://wiza.co)** - for enriched contact data  
 - **[OpenAI](https://openai.com)** - for dynamic keyword generation, industry insights, and guidance 
 
-The goal is simple:
-
-Help SEO firms and digital marketing agencies find high-potential prospects—websites that are actively competing in search results but underperforming enough to need SEO services.
+This soultion helps SEO firms and digital marketing agencies find potential prospects, such as websites that are actively competing in search results but underperforming enough to need SEO services.
 By crawling local SERPs by keyword, industry, and location, filtering results intelligently, and then enriching domains with real business contact information, the tool produces sales-ready leads in minutes.
 
 ---
 
-## Key Aspects:
+## Key Technical Aspects:
 
 ### Localized SERP Crawling
 - Uses Serpstat’s Local SERP API to simulate unbiased Google Chrome searches.  
