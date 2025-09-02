@@ -134,7 +134,7 @@ The **SerpStat API Calls** folder contains Jupyter notebooks with information an
 This is helpful in understanding what data is accessible with a subscription, and how to send the post requests correctly for the many different methods. 
 
 ### Disclaimer
-This solution is provided as an example of a business use case for SEO lead generation and enrichment. This repository can be used as a reference or starting point for similar applications in digital marketing and SEO outreach or even a jumping off point for a future SaaS soultion.
+This solution is provided as an example of a business use case for SEO lead generation and enrichment. This repository can be used as a reference or starting point for similar applications in digital marketing and SEO outreach or even a jumping off point for a future SaaS solution.
 
 
 
